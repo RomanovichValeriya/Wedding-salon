@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css"></linkrel>
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+     <h7>Логин :</h7>
+      <div style="padding-bottom: 20px;" class="email">
+        <input type="email" id="email" placeholder="Логин" />
+        <p>Зарегестрировать</p> 
+      </div>
+      <h7>Пароль :</h7>
+      <div style="padding-bottom: 10px;" class="passwor">
+
+        <input type="password" pattern="[0-9]{,3}" id="password" placeholder="Пароль"/>
+        
+       <p>Забыли пароль ?</p> 
+      </div>
+      <button style="width: 170px;" onclick="saveDataToLocalStorage()">Войти</button>
+    </form>
+    <script src="index.js"></script>
+  </body>/
+</html>

@@ -1,0 +1,13 @@
+p {
+  text-decoration: underline ;
+  }
+.email{
+  display: flex;
+  gap: 10px;
+  font-size: 10px;
+}
+.passwor{
+  display: flex;
+  gap: 10px;
+  font-size: 10px;
+}
